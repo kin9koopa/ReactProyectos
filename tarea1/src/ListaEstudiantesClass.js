@@ -6,9 +6,11 @@ export class ListaEstudiantesClass extends Component {
 		return (
 			<React.Fragment>
 				{listaEstudiantes.map((estudiante) => (
-					<p key={estudiante.nombre} className="class">
-						{estudiante.nombre} {estudiante.apellido} | {estudiante.edad}
-					</p>
+					<ul key={estudiante.nombre} className="class">
+						<li>
+							{estudiante.nombre} {estudiante.apellido} | {estudiante.edad}
+						</li>
+					</ul>
 				))}
 			</React.Fragment>
 		);
