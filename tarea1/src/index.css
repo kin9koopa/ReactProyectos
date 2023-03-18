@@ -1,0 +1,13 @@
+.lista {
+	align-items: center;
+	display: flex;
+	justify-content: space-evenly;
+}
+.class {
+	color: purple;
+	font-weight: bold;
+}
+.function {
+	color: red;
+	font-weight: bold;
+}
